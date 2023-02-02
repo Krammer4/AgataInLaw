@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.typekit.net/vqb1gpn.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    <title>Agata</title>
+</head>
+<body>
+<div class="wrapper">
+
+<div class="landing">
+    <div class="landing _container">
+        
+        <div class="header">
+
+            <p class="header__page-name">AgataInLaw</p>
+            <p class="header__book">Заказать Консультацию</p>
+        </div>
+
+
+<div class="popup passive">
+
+    <div class="popup-body">
+        
+        <div class="popup-content">
+
+            <div class="popupClose">
+            <img src="Img/cross1.svg" alt="close" class="popup-cross-one">
+            <img src="Img/cross2.svg" alt="close" class="popup-cross-two">
+       </div>
+       
+            <p class="popup-title">Оставьте вашу заявку</p>
+       
+       <form action="sender.php" method="post">
+        <input type="text" class="name" name="name" placeholder="Имя" required>
+        <input type="text" class="phone" name="phone" placeholder="Телефон">
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="text" id="" cols="30" rows="10" placeholder="Введите текст"></textarea>
+        <button type="button" class="send-form">Отправить форму</button>
+        <div class="status"></div>
+    </form>
+
+    </div>
+</div>
+</div>
+
+
+<div class="popupTY passive">
+    <div class="popupTY-body">
+        <div class="popupTY-content">
+            <p class="popupTY-title">Спасибо за заявку!</p>
+            <p class="popupTY-text">Ваше мнение много значит для нас!</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+        <nav class="menu">
+            <div class="menu__row">
+
+            <div class="menu__positions">
+                <p class="menu__pos-name active"><a href="#">Главная</a></p>
+                <p class="menu__pos-name"><a href="#">Про меня</a></p>
+                <p class="menu__pos-name"><a href="#">Страницы</a></p>
+                <p class="menu__pos-name"><a href="#">Свяжитесь со мной</a></p>
+            </div>
+            
+
+            <div class="menu__contacts contacts">
+
+                <div class="contacts-card">
+                    <img src="Img/phone.svg" alt="phone" class="contacts-img">
+                
+                    <div class="contacts__info">
+                        <p class="contacts-title">Позвоните мне на:</p>
+                        <p class="contacts-subtitle"><a href = "tel:+375292196736">+375 (29) 881-13-25</a></p>
+                    </div>
+                
+                </div>
+
+                <div class="contacts-card">
+                    <img src="Img/mail.svg" alt="mail" class="contacts-img">
+                
+                    <div class="contacts__info">
+                        <p class="contacts-title">Напишите мне на:</p>
+                        <p class="contacts-subtitle">agatatahf@gmail.com</p>
+                    </div>
+                
+                </div>
+
+
+
+            </div>
+            </div>
+        </nav>
+
+        <div class="main">
+
+            <p class="main-title">Я самый престижный и надёжный профессионал</p>
+            <p class="main-subtitle">Я помогла огромному количеству людей по всему миру и не собираюсь останавливаться!</p>
+            <p class="main-inTouch">Связаться</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="info">
+    <div class="info _container">
+
+        <div class="info-card">
+            <img src="Img/Infoimg1.jpg" alt="img" class="info-img">
+
+            <div class="info__text">
+                <p class="info__title">Добро пожаловать в адвокатское агентство Agata</p>
+                <p class="info__subtitle">Несмотря на то, что я нахожусь в Минске, я помогаю людям с юридическими проблемами самого различного характера по всей Беларуси и по всему миру.</p>
+            </div>
+        </div>
+
+
+        <div class="info-card">
+            <img src="Img/InfoImg2.jpg" alt="img" class="info-img">
+
+            <div class="info__text info__textTwo">
+                <p class="info__title info__titleTwo">Ксения Хаританович</p>
+                
+                <div class="infoTwo-row">
+
+                    <div class="infoTwo-card">
+                    <img src="Img/infoTools.svg" alt="tools" class="infoTools-img">
+                    <p class="infoTwo-card-title">100% Выигранных дел</p>
+                </div>
+
+
+                <div class="infoTwo-card secCard">
+                    <p class="info__ages">17+</p>
+                    <p class="infoTwo-card-title secTitle">Лет за работой</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="practice">
+    <div class="practive _container">
+
+<div class="practice__header-row">
+    <p class="practice__header-title">Превосходные области моей практики</p>
+    <p class="practice__subheader-title">Я являюсь адвокатом по гражданским и судебным тяжбам, который сосредоточен на обеспечении справедливости на основе вопросов, связанных со страховой защитой, страховым покрытием, недобросовестностью, страховым мошенничеством и уголовным разбирательством.</p>
+</div>
+
+<div class="practive-cards-row">
+
+<div class="practice-card pcard">
+    <div class="pcard-body">
+        <p class="pcard-title">Бизнес-законы</p>
+        <p class="pcard-subtitle">Будьте в курсе новых событий, так как законы <span class="readmore">и правила часто меняются в зависимости от ситуации.</span><span class="readmoreDots">...</span></p>
+        <div class="pcard-more-row">
+            <img src="Img/pcard1.svg" alt="img" class="pcard-img">
+            <p class="pcard-more-title">Читать далее...</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="practice-card pcard">
+    <div class="pcard-body">
+        <p class="pcard-title">Недвижимость</p>
+        <p class="pcard-subtitle">Никогда не осуждайте, просто выслушайте и <span class="readmore">посоветуйте. Даже если ваш клиент принял плохое решение в данном случае.</span><span class="readmoreDots">...</span></p>
+        <div class="pcard-more-row">
+            <img src="Img/pcard2.svg" alt="img" class="pcard-img">
+            <p class="pcard-more-title">Читать далее...</p>
+        </div>
+    </div>
+</div>
+
+<div class="practice-card pcard">
+    <div class="pcard-body">
+        <p class="pcard-title">Аварии</p>
+        <p class="pcard-subtitle">Ложь ни к чему не приведет и создаст вам <span class="readmore">репутацию нечестного человека.</span><span class="readmoreDots">...</span></p>
+        <div class="pcard-more-row">
+            <img src="Img/pcard3.svg" alt="img" class="pcard-img">
+            <p class="pcard-more-title">Читать далее...</p>
+        </div>
+    </div>
+</div>
+
+<div class="practice-card pcard">
+    <div class="pcard-body">
+        <p class="pcard-title">Неправомерная смерть</p>
+        <p class="pcard-subtitle">Держите себя в курсе событий в своей <span class="readmore">области права.</span><span class="readmoreDots">...</span></p>
+        <div class="pcard-more-row">
+            <img src="Img/pcard4.svg" alt="img" class="pcard-img">
+            <p class="pcard-more-title">Читать далее...</p>
+        </div>
+    </div>
+</div>
+
+<div class="practice-card pcard">
+    <div class="pcard-body">
+        <p class="pcard-title">Уголовное право</p>
+        <p class="pcard-subtitle">Я, как адвокат, полностью готова предоставить вам <span class="readmore">надежность, которую вы заслуживаете.</span><span class="readmoreDots">...</span></p>
+        <div class="pcard-more-row">
+            <img src="Img/pcard5.svg" alt="img" class="pcard-img">
+            <p class="pcard-more-title">Читать далее...</p>
+        </div>
+    </div>
+</div>
+
+<div class="practice-card pcard">
+    <div class="pcard-body">
+        <p class="pcard-title">Семейное право</p>
+        <p class="pcard-subtitle">Вы можете оказаться не в состоянии работать или <span class="readmore">выполнять связанные с работой обязанности.</span><span class="readmoreDots">...</span></p>
+        <div class="pcard-more-row">
+            <img src="Img/pcard6.svg" alt="img" class="pcard-img">
+            <p class="pcard-more-title">Читать далее...</p>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+    </div>
+</div>
+
+
+<div class="achievements achv">
+    <div class="achievements _container">
+
+        <p class="achv-title">Борьба за то, чтобы получить что вы заслуживаете</p>
+        <img src="Img/border.svg" alt="border-img" class="achv-border">
+        <p class="achv-subtitle">Я работаю для достижения справедливого и своевременного решения юридических вопросов в вашем деле.</p>
+   
+   <div class="achv-row">
+
+    <div class="achv__card">
+
+        <div class="achv-pict">
+            <img src="Img/heart.svg" alt="heart" class="achv-pict-img">
+            <p class="achv-pict-text">143</p>
+        </div>
+
+        <div class="achv_card-text">
+        <p class="achv-card-title">Довольных клиента</p>
+        <p class="achv-card-subtitle">Кол-во наших клиентов</p>
+    </div>
+    </div>
+
+    <div class="achv__card">
+
+        <div class="achv-pict sec">
+            <img src="Img/star.svg" alt="star" class="achv-pict-img">
+            <p class="achv-pict-text">99%</p>
+        </div>
+
+        <div class="achv_card-text">
+        <p class="achv-card-title">Выигранных дел</p>
+        <p class="achv-card-subtitle">Ни одного проигранного дела</p>
+    </div>
+    </div>
+   </div>
+    </div>
+</div>
+
+<div class="stats">
+    <img src="Img/bg.jpg" alt="background" class="stats-bg-img">
+    <div class="stats _container">
+
+<div class="stats__body">
+
+    <div class="stats-row">
+
+        <div class="stats__column col">
+
+            <p class="col-mainTitle">Я - один из лучших юристов в истории</p>
+            <img src="Img/border.svg" alt="border" class="stats-border-img">
+
+            <p class="stats-title">2023 - Основание Компании!</p>
+            <p class="stats-subtitle">Истоки юристов и первых основателей права восходят к Древней Греции и Риму.</p>
+
+            <p class="stats-title">2023 - Сделаем это!</p>
+            <p class="stats-subtitle">Юристы в средние века с трудом зарабатывали на жизнь, когда юридическая профессия рухнула в западном мире.</p>
+
+            <p class="stats-title">2023 - Первые 100 заказов</p>
+            <p class="stats-subtitle">Когда юристы начали появляться в Соединенных Штатах?</p>
+
+            <p class="stats-title">Я номер один!</p>
+            <p class="stats-subtitle">В конце концов, предубеждения против юристов начали исчезать, а профессия юриста начала приобретать уважение и власть.</p>
+
+        </div>
+
+        <img src="Img/statspict.jpg" alt="img" class="stats-img">
+
+        <div class="stats__column col">
+
+            <p class="col-mainTitle">Я опытный и надёжный юрист</p>
+            <img src="Img/border.svg" alt="border" class="stats-border-img">
+            <p class="col-secText">Держите себя в курсе событий в своей области права. Будьте в курсе новых событий, так как законы и правила часто меняются в зависимости от ситуации, и каждый день решаются новые дела.</p>
+            
+            <div class="col-indicator-row">
+                <p class="col-indicator-title">Развод и семейные дела</p>
+                <p class="col-indicator-percent">75%</p>
+            </div>
+            <img src="Img/indicator.svg" alt="indicator" class="col-indicator-img">
+
+            <div class="col-indicator-row">
+                <p class="col-indicator-title">Недвижимость и строительство</p>
+                <p class="col-indicator-percent">80%</p>
+            </div>
+            <img src="Img/indicator2.svg" alt="indicator" class="col-indicator-img">
+
+            <div class="col-indicator-row">
+                <p class="col-indicator-title">Банковское дело и финансы</p>
+                <p class="col-indicator-percent">75%</p>
+            </div>
+            <img src="Img/indicator3.svg" alt="indicator" class="col-indicator-img">
+
+            <div class="col-indicator-row">
+                <p class="col-indicator-title">Несчастные случаи</p>
+                <p class="col-indicator-percent">90%</p>
+            </div>
+            <img src="Img/indicator4.svg" alt="indicator" class="col-indicator-img">
+
+            <p class="col-consulting">Бесплатная консультация</p>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+<div class="feedback fb">
+    <div class="feedback _container">
+        <p class="fb-maintitle">Мнения и отзывы клиентов</p>
+        <img src="Img/border.svg" alt="border" class="fb-border-img">
+    
+    <div class="fb-row">
+
+        <div class="fb-column">
+
+            <div class="fb-cardTop">
+
+                <div class="fb-cardTopbody">
+                    <img src="Img/quotes.svg" alt="quotes" class="fb-quotes-img">
+                    <p class="fb-commentTop">Не могли бы вы поблагодарить Ксению лично от меня. Идеальный способ ведения дела в зависимости от ситуации.</p>
+                </div>
+
+                <div class="fb-person-row top">
+                    <img src="Img/natasha.png" alt="person" class="fb-person-img">
+
+                    <div class="fb-person-text">
+                        <p class="fb-person-name">Наташа</p>
+                        <p class="fb-person-pos">Частный сотрудник</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="fb-column">
+    <div class="fb-person-row bot">
+        <img src="Img/hannah.png" alt="person" class="fb-person-img">
+
+        <div class="fb-person-text">
+            <p class="fb-person-name">Ханна Батлер</p>
+            <p class="fb-person-pos">Бизнес сектор</p>
+        </div>
+    </div>
+
+    <div class="fb-cardTop">
+        <div class="fb-cardBotbody">
+            <img src="Img/quotes.svg" alt="quotes" class="fb-quotes-img">
+            <p class="fb-commentTop">Ксения действительно помогла мне со всеми моими семейными правами и вопросами опеки в нужное время. Не хватает слов, чтобы поблагодарить её.</p>
+        </div>
+
+        
+    </div>
+</div>
+
+<div class="fb-column">
+
+    <div class="fb-cardTop">
+
+        <div class="fb-cardTopbody">
+            <img src="Img/quotes.svg" alt="quotes" class="fb-quotes-img">
+            <p class="fb-commentTop">Спасибо за то, как Ксения идеально справилась с этим вопросом. Она даёт мне огромное облегчение в этом случае с большой уверенностью.</p>
+        </div>
+
+        <div class="fb-person-row top">
+            <img src="Img/phill.png" alt="person" class="fb-person-img">
+
+            <div class="fb-person-text">
+                <p class="fb-person-name">Филипп</p>
+                <p class="fb-person-pos">Водитель автобуса</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="fb-column">
+<div class="fb-person-row bot">
+<img src="Img/josh.png" alt="person" class="fb-person-img">
+
+<div class="fb-person-text">
+    <p class="fb-person-name">Джош Воррен</p>
+    <p class="fb-person-pos">Инженер</p>
+</div>
+</div>
+
+<div class="fb-cardTop">
+<div class="fb-cardBotbody">
+    <img src="Img/quotes.svg" alt="quotes" class="fb-quotes-img">
+    <p class="fb-commentTop">Один из лучших профессионалов в этой сфере. Видно, что человек явно разбирается в теме. Благодарю за проделанный труд.</p>
+</div>
+</div>
+</div>
+    </div>
+    </div>
+</div>
+
+
+<div class="ksenia">
+    <div class="ksenia _container">
+        <p class="ksenia-maintitle">Наш опытный адвокат готов ответить на любые вопросы</p>
+        <img src="Img/border.svg" alt="border" class="ksenia-border">
+        <img src="Img/ksenia.jpg" alt="" class="ksenia-img">
+        <img src="Img/inst.svg" alt="instagram" class="ksenia-inst-icon">
+        <p class="ksenia-name">Хаританович Ксения</p>
+    </div>
+</div>
+
+<div class="consultation consult">
+    <div class="consult _container">
+        <div class="consult-row">
+
+<div class="consult-column one">
+
+<p class="consult-maintitle">Профессиональный юрист всегда готов вам помочь</p>
+<img src="Img/border.svg" alt="border" class="consult-border">
+<p class="consult-subtile">Мы всегда доступны для новых дел, больших или малых. Отправьте нам электронное письмо, и мы свяжемся с вами в ближайшее время, или позвоните по телефону с 14:00 до 22:00 с понедельника по субботу.</p>
+<p class="consult-contactus">Свяжитесь со мной</p>
+
+</div>
+
+<div class="consult-column coltwo">
+
+<div class="coltwo-card">
+    <div class="coltwo-body">
+        <div class="coltwo-content">
+            <p class="coltwo-title">Получите бесплатную консультацию</p>
+            <p class="coltwo-subtitle">Вы можете получить бесплатную консультацию и оценку дела у нас по следующему контактному телефону</p>
+        
+        <div class="coltwo-callus callus">
+            <img src="Img/phoneCallus.svg" alt="phone" class="callus-img">
+        
+            <div class="callus-text">
+                <p class="callus-title">Звоните на:</p>
+                <p class="callus-subtitle"><a href = "tel:+375292196736">+375 (29) 881-13-25</a></p>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="form">
+    <img src="Img/formbg.jpg" alt="background" class="form-bg-img">
+    <div class="form _container">
+
+<div class="form-body">
+    <div class="form-content active">
+    <form class="form" method="post">
+        <div class="form-inputrow">
+        <input class="form-input one" type="text" class="name" name="name" placeholder="Имя*" required>
+        <input class="form-input two" type="email" name="email" placeholder="Email*" required>
+    </div>
+        
+    <div class="form-inputrow">
+        <input class="form-input four" type="text" class="phone" name="phone" placeholder="Телефон">
+        <input class="form-input five" type="text" name="theme" placeholder="Тема">
+        </div>
+        <textarea class="form-textarea" type="text" name="text" id="" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
+        <button type="button" class="send-form form-button">Отправить форму</button>
+    </form>
+</div>
+<div class="form-contentSent passive">
+    <p class="form-contentSent-title">Спасибо! Ваше мнение очень важно для нас!</p>
+    <p class="form-contentSent-more">Отправить ещё одну заявку</p>
+</div>
+</div>
+    </div>
+</div>
+
+
+<div class="blogs">
+    <div class="blogs _container">
+        <p class="blogs-maintitle">Недавние новости</p>
+        <img src="Img/border.svg" alt="border" class="blogs-border">
+    
+    <div class="blogs-row">
+<img src="Img/blogs-img.jpg" alt="img" class="blogs-img">
+
+<div class="blogs-colTwo">
+
+    <div class="blogs-blog-title-row">
+        <p class="blogs-blog-title">Корпоративное право</p>
+        <p class="blogs-blog-brdr">|</p>
+        <p class="blogs-blog-date">Четверг, 2 Февраля, 2023</p>
+    </div>
+    <p class="blogs-blog-maintitle">Разница между информацией и юридической консультацией</p>
+    <p class="blogs-blog-subtitle">Совместная работа над низко висящими фруктами для определения примерной активности с добавленной стоимостью для бета-матричного экономического тестирования, перекрывающего цифровое.</p>
+    <p class="blogs-blog-read-more">Читать <span class="blog-passive">далее</span></p>
+</div>
+    </div>
+    </div>
+</div>
+
+
+<div class="news">
+    <div class="news _container">
+        <div class="news-row">
+<div class="news-card">
+    <img src="Img/news1.jpg" alt="news-img" class="news-card-img">
+    <div class="news-title-row">
+        <p class="news-title">Корпоративное право</p>
+        <p class="news-title">|</p>
+        <p class="news-title">Четверг, 2 Февраля, 2023</p>
+    </div>
+    <p class="news-maintitle">Как определить, кто виноват в ДТП</p>
+    <p class="news-subtite">Извлеките выгоду из легко висящих фруктов, чтобы определить приблизительную матрицу добавленной стоимости экономической деятельности, чтобы бета-тестирование превзошло цифровое.</p>
+    <p class="news-more">Читать <span class="news-passive">далее</span></p>
+</div>
+
+<div class="news-card">
+    <img src="Img/news2.jpg" alt="news-img" class="news-card-img">
+    <div class="news-title-row">
+        <p class="news-title">Консультация юриста</p>
+        <p class="news-title">|</p>
+        <p class="news-title">Четверг, 2 Февраля, 2023</p>
+    </div>
+    <p class="news-maintitle">Когда иск вне компенсации работникам</p>
+    <p class="news-subtite">Стратегии, основанные на низко висящих фруктах, чтобы экономически определить приблизительную матрицу деятельности с добавленной стоимостью для бета-тестирования, заменяют цифровые.</p>
+    <p class="news-more">Читать <span class="news-passive">далее</span></p>
+</div>
+
+<div class="news-card">
+    <img src="Img/news3.jpg" alt="news-img" class="news-card-img">
+    <div class="news-title-row">
+        <p class="news-title">Социальная справедливость</p>
+        <p class="news-title">|</p>
+        <p class="news-title">Четверг, 2 Февраля, 2023</p>
+    </div>
+    <p class="news-maintitle">Публикации в социальных сетях привели к вердикту защиты</p>
+    <p class="news-subtite">Совместная работа над низко висящими фруктами для определения примерной активности с добавленной стоимостью для бета-матричного экономического тестирования, перекрывающего цифровое.</p>
+    <p class="news-more">Читать <span class="news-passive">далее</span></p>
+</div>
+
+<div class="news-card">
+    <img src="Img/news4.jpg" alt="news-img" class="news-card-img">
+    <div class="news-title-row">
+        <p class="news-title">Корпоративное право</p>
+        <p class="news-title">|</p>
+        <p class="news-title">Четверг, 2 Февраля, 2023</p>
+    </div>
+    <p class="news-maintitle">Ехать в одиночку на помощь своим любимым некоммерческим организациям</p>
+    <p class="news-subtite">Подкастинг о низко висящих фруктах для определения примерной активности с добавленной стоимостью для бета-тестирования экономически перекрывает цифровую матрицу.</p>
+    <p class="news-more">Читать <span class="news-passive">далее</span></p>
+</div>
+
+<div class="news-card">
+    <img src="Img/news5.jpg" alt="news-img" class="news-card-img">
+    <div class="news-title-row">
+        <p class="news-title">Консультация юриста</p>
+        <p class="news-title">|</p>
+        <p class="news-title">Четверг, 2 Февраля, 2023</p>
+    </div>
+    <p class="news-maintitle">Дело возбуждено от имени пострадавшего рабочего буксира</p>
+    <p class="news-subtite">Эффективно на низко висящих фруктах, чтобы определить приблизительную добавленную стоимость деятельности, чтобы бета-тестовая матрица экономически превзошла цифровую.</p>
+    <p class="news-more">Читать <span class="news-passive">далее</span></p>
+</div>
+
+<div class="news-card">
+    <img src="Img/news6.jpg" alt="news-img" class="news-card-img">
+    <div class="news-title-row">
+        <p class="news-title">Социальная справедливость</p>
+        <p class="news-title">|</p>
+        <p class="news-title">Четверг, 2 Февраля, 2023</p>
+    </div>
+    <p class="news-maintitle">Как компании выбирают юридическое представительство</p>
+    <p class="news-subtite">Объективно на низко висящих фруктах, чтобы определить приблизительную добавленную стоимость деятельности, чтобы бета-матрица экономического теста переопределить цифровой.</p>
+    <p class="news-more">Читать<span class="news-passive">далее</span></p>
+</div>
+        </div>
+    </div>
+</div>
+
+<div class="prefooter">
+    <img src="Img/footerbg.jpg" alt="bg" class="prefooter-img">
+</div>
+
+
+<footer class="footer">
+<div class="footer _container">
+<div class="footer-logo-row">
+<img src="Img/borderleft.svg" alt="border-left" class="footer-brdr-left">
+<p class="footer-name">AgataInLaw</p>
+<img src="Img/borderright.svg" alt="border-right" class="footer-brdr-right">
+</div>
+
+<div class="footer-row">
+
+<div class="footer-column fcol">
+<p class="fcol-name">Прямые ссылки</p>
+
+<div class="col-row">
+<div class="col-inrow-col">
+    <p class="col-title">Главная</p>
+    <p class="col-title">Обо мне</p>
+    <p class="col-title">Цены</p>
+    <p class="col-title">Отзыв</p>
+    <p class="col-title">Связаться</p>
+</div>
+<div class="col-inrow-col">
+    <p class="col-title">Блог</p>
+    <p class="col-title">Личный блог</p>
+    <p class="col-title">Кейсы</p>
+    <p class="col-title">Личные кейсы</p>
+    <p class="col-title">Области практики</p>
+</div>
+</div>
+</div>
+
+
+
+<div class="footer-column fcol">
+    <p class="fcol-name">Вспомогательное</p>
+    <div class="col-row">
+    <div class="col-row-col">
+        <p class="col-title">Гид по стилю</p>
+        <p class="col-title">Лицензии</p>
+        <p class="col-title">Защищённые</p>
+        <p class="col-title">Список изменений</p>
+        <p class="col-title">Страница ошибки</p>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="footer-column fcol">
+        <p class="fcol-name">Практика</p>
+        <div class="col-row">
+        <div class="col-row-col">
+            <p class="col-title">Бизнес</p>
+            <p class="col-title">Строительное право</p>
+            <p class="col-title">Аварии</p>
+            <p class="col-title">Уголовное право</p>
+            <p class="col-title">Семейное право</p>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="footer-column fcol">
+            <p class="fcol-name">Связь</p>
+            <div class="col-row">
+            <div class="col-row-col">
+                <p class="col-title">Наконечникова</p>
+                <p class="col-title">г.Барановичи, Беларусь</p>
+                <p class="col-title filler">filler</p>
+                <p class="col-title fPhone">Телефон: +375 (29) 881-13-25</p>
+                <p class="col-title">Email: agatatahf@gmail.com</p>
+            </div>
+            </div>
+            </div>
+</div>
+
+<div class="footer-media-row media">
+<div class="media-madeby-row">
+    <p class="media-desBy">Разработал</p>
+    <p class="media-desBy-name">Глеб "KRAMMER" Букатов</p>
+</div>
+
+<div class="footer-social-row">
+<p class="footer-social-title">Соц. сети:</p>
+<img src="Img/footervk.svg" alt="vk" class="footer-vk fIcon">
+<img src="Img/footerInst.svg" alt="inst" class="footer-inst fIcon">
+</div>
+
+</div>
+
+
+</div>
+
+
+</footer>
+
+
+
+</div>
+</body>
+<script src="index.js"></script>
+</html>
